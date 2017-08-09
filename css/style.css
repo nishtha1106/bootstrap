@@ -1,31 +1,41 @@
-.social { 
-	margin-left:10px;
-    margin-top:50px;
+.social {
+    margin-left: 1px;
+    margin-top: 20px;
     margin-bottom: 0px;
-	text-decoration: none;
-	float: right;
-	text-decoration-style: none;
-	text-align: center;
-}
-.social a img{ 
-	float: left;
-	display: inline;
-	height: 40px;
+    text-decoration: none;
+    float: right;
+    text-decoration-style: none;
+    text-align: center;
 }
 
-body {
-padding-top: 1em;
-}	
+.social a img {
+    float: left;
+    display: inline;
+    height: 40px;
+}
+
+
 nav .container {
-	color: black;
+    color: black;
 }
+
 #style {
-	width: 20px;
-	float: right;
+    width: 20px;
+    float: right;
 }
+
 #main {
-	background-color: #212F3C;
+    background-color: #212F3C;
 }
+
 #contain {
-	background-color: #d4d4d4;
+    background-color: #d4d4d4;
+}
+
+#slide {
+    background-color: #212F3C;
+}
+
+.ul1 {
+    color: yellowgreen;
 }
