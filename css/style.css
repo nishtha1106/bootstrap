@@ -22,3 +22,11 @@ nav .container {
 .ul1 {
     color: yellowgreen;
 }
+.logo img{
+	 width:1080px;
+}
+@media (max-width: 1080px){
+	.logo{
+		/*display: none;*/
+	}
+}
