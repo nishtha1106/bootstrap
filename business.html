@@ -54,32 +54,55 @@
 					</ul>
 					<form class="form-inline my-2 my-lg-0"><!-- search bar started -->
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						<button type="button" class="btn btn-outline-success my-2 my-sm-0 btn btn-primary"  data-toggle="modal" data-target="#myModal" >Search</button>
 					</form><!-- search bar ended -->
 				</div>
-				</nav><hr><!-- navigationbar ended -->
+			</nav><hr><!-- navigationbar ended -->
+
+				<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Alert</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Search button is disabled at the moment.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><hr>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><!-- carousel started -->
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
-				<div class="carousel-inner" role="listbox">
+				<div class=" carouselimage carousel-inner" role="listbox">
 					<div class="carousel-item active">
-					<img class="d-block img-fluid" src="images/bjp1.jpg" class="img-thumbnail" width="1000px" height="900px" class=" rounded-top " alt="bjp ">
+					<img class="d-block img-fluid" src="images/bjp1.jpg" class="img-thumbnail rounded-top " alt="bjp ">
 						<div class="carousel-caption d-none d-md-block ">
 							<div class="ul1 bg-inverse text-white""><u><h3> Gujarat Rajya Sabha election: Top developments</h3></u></div>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="images/pujara1.jpg " class="img-thumbnail" width="1000px " height="900px " class="rounded-top " alt="pujara ">
+						<img class="d-block img-fluid" src="images/pujara1.jpg " class="img-thumbnail rounded-top" alt="pujara ">
 						<div class="carousel-caption d-none d-md-block ">
 							<div class="ul1 bg-inverse text-white""><u> <h3>If sledging helps our bowlers, I will sledge: Cheteshwar Pujara</h3></u>
 							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="images/axis2.jpg " class="img-thumbnail" width="1000px " height="900px " class="rounded-top " alt="bank ">
+						<img class="d-block img-fluid" src="images/axis2.jpg " class="img-thumbnail rounded-top" alt="bank ">
 						<div class="carousel-caption d-none d-md-block ">
 							<div class="ul1 bg-inverse text-white""><u><h3> Axis Bank cuts interest rate on savings bank account</h3></u>
 							</div>
@@ -97,9 +120,24 @@
 			</div><!-- carousel ended -->
 			<hr>
 
-						<footer class="mainfooter" role="contentinfo"><!-- footer started -->
-							<div class="container-fluid">
-								<div class="row">
+
+			<div class="container ">
+				<!-- hero image container started -->
+				<div>
+					<u><h4> 10 more die, 34 trains hit as floods worsen in Assam</h4></u>
+				</div>
+				<div>
+					<a class="navbar-brand " href="# "><img src="images/flood.jpg " class="img-thumbnail " width="100% " alt="Flood "></a>
+					<p>GUWAHATI: The death toll in this second wave of flood climbed to 15 with 10 more people reported dead on Sunday as the government called out Army to rescue marooned people and put IAF on standby to assist the administration deal with the worst flood fury in recent years. Rail connectivity to the region has been snapped with 34 trains being hit, while road connectivity has been disrupted across various locations in flood-hit areas.</p>
+					<p> In the last 24 hours, more than 10 lakh have been affected, taking the total to over 23 lakh after the flood spread over 21 districts from 19 since Saturday. More than 1.83 lakh people have been displaced and have taken shelter in 439 camps set up by the government. Six people have been reported dead in Kokrajhar, three in Bongaigan and one in Biswanath district.</p>
+				</div>
+			</div>
+			<hr>
+			<!-- hero image container ended -->
+
+						<footer class="mainfooter " role="contentinfo"><!-- footer started -->
+							<div class="container-fluid ">
+								<div class="row footer-fixed-bottom">
 									<div class="col-md-12">
 										<div class="footer-title text-xs-center">
 											<h4 class="p-b-1"> Copright: &copy; Nishtha Goyal</h4>
@@ -109,7 +147,7 @@
 										<div class="card card-primary">
 											<div class="card-header">
 												<a href="http://www.facebook.com" target="_blank">
-													<img src="images/facebook.jpg" height="50px" width="100%" /></a>
+													<img src="images/facebook.jpg" class="footerimage"/></a>
 												</div>
 											</div>
 										</div>
@@ -117,7 +155,7 @@
 											<div class="card card-primary">
 												<div class="card-header">
 													<a href="http://www.twitter.com" target="_blank">
-														<img src="images/twitter.png" height="50px" width="100%"/></a>
+														<img src="images/twitter.png" class="footerimage"/></a>
 													</div>
 												</div>
 											</div>
@@ -125,7 +163,7 @@
 												<div class="card card-primary">
 													<div class="card-header">
 														<a href="http://www.youtube.com" target="_blank">
-															<img src="images/youtube.png" height="50px" width="100%"/></a>
+															<img src="images/youtube.png" class="footerimage" /></a>
 														</div>
 													</div>
 												</div>

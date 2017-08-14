@@ -54,10 +54,34 @@
 					</ul>
 					<form class="form-inline my-2 my-lg-0"><!-- search bar started -->
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						<button type="button" class="btn btn-outline-success my-2 my-sm-0 btn btn-primary"  data-toggle="modal" data-target="#myModal" >Search</button>
 					</form><!-- search bar ended -->
 				</div>
 			</nav><hr><!-- navigationbar ended -->
+
+				<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Alert</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Search button is disabled at the moment.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			<hr>
 			<div class="container"><!-- hero image container started -->
 				<div>
 					<u><h2>Baahubali 2:</h2></u>
@@ -69,10 +93,10 @@
 			</div> <hr><!-- hero image container ended -->
 			<div class="card-deck"><!-- 3 grid container started -->
 				<div class="card" width="100%">
-					<img class="card-img-top" src="images/modi.jpeg" class="img-thumbnail" width="100%" height="180px" alt="Modi Amit ">
+					<img class="card-img-top img-thumbnail cardimage" src="images/modi.jpeg" alt="Modi Amit ">
 					<div class="card-block">
 						<h4 class="card-title">Modi congratulates Shah, Irani for making RS debut </h4>
-						<p class="card-text" text-size=100% >Prime Minister Narendra Modi on Wednesday congratulated Union Minister Smriti Irani and BJP chief Amit Shah on being elected to Rajya Sabha from Gujarat. Mr. Shah and Ms. Irani made their maiden entry into the upper house, polls for which were held on Tuesday.The prime minister also congratulated Mr. Shah for completing three years as the BJP chief and noted that the saffron party’s base had expanded during this period.“Congratulations to Shri @AmitShah on completing 3 successful years as @BJP4India President,” he said in another tweet.</p>
+						<p class="card-text" >Prime Minister Narendra Modi on Wednesday congratulated Union Minister Smriti Irani and BJP chief Amit Shah on being elected to Rajya Sabha from Gujarat. Mr. Shah and Ms. Irani made their maiden entry into the upper house, polls for which were held on Tuesday.The prime minister also congratulated Mr. Shah for completing three years as the BJP chief and noted that the saffron party’s base had expanded during this period.“Congratulations to Shri @AmitShah on completing 3 successful years as @BJP4India President,” he said in another tweet.</p>
 						<p class="card-text">
 							<div class="card-footer">
 								<small class="text-muted">Last updated 3 mins ago</small>
@@ -80,7 +104,7 @@
 						</div>
 					</div>
 					<div class="card" width="100%">
-						<img class="card-img-top" src="images/pg.jpeg" class="img-thumbnail" width="100%" height="180px" alt="Pujara">
+						<img class="card-img-top img-thumbnail cardimage" src="images/pg.jpeg"   alt="Pujara">
 						<div class="card-block">
 							<h4 class="card-title">Pujara has evolved as an exemplary No. 3 batsman </h4>
 							<p class="card-text">Just like Dravid, Pujara too went through a testing phase when his strike-rate came under scrutiny. At least, for Dravid, the question was specific to his initial one-dayers, but startlingly, for Pujara, the query was linked to his forays at the Test crease! He even briefly lost his spot in the playing eleven under Virat Kohli’s watch but forged his way back with fortitude and big runs scored at a brisk pace.</p>
@@ -91,7 +115,7 @@
 							</div>
 						</div>
 						<div class="card" width="100%">
-							<img class="card-img-top" src="images/sebi.jpeg" class="img-thumbnail" width="100%" height="180px" alt="SEBI">
+							<img class="card-img-top img-thumbnail cardimage" src="images/sebi.jpeg" alt="SEBI">
 							<div class="card-block">
 								<h4 class="card-title">SEBI shell company diktat jolts </h4>
 								<p class="card-text">The sudden suspension in trading in more than 300 “shell companies” on a direction issued by the Securities and Exchange Board of India (SEBI) took the market by surprise on Tuesday with the mid-cap and small-cap segments bearing the maximum brunt. While the benchmark Sensex fell 0.80%, or 259.48 points, to close at 32,014.19, the BSE SmallCap index slid 1.27%, or 205.17 points. The BSE MidCap index also lost 1.2%, or 187.12 points.</p>
@@ -101,10 +125,10 @@
 									</div>
 								</div>
 							</div>
-						</div><!-- 3 grid container ended -->
-						<footer class="mainfooter" role="contentinfo"><!-- footer started -->
-							<div class="container-fluid">
-								<div class="row">
+						</div><!-- 3 grid container ended --><hr>
+						<footer class="mainfooter " role="contentinfo"><!-- footer started -->
+							<div class="container-fluid ">
+								<div class="row footer-fixed-bottom">
 									<div class="col-md-12">
 										<div class="footer-title text-xs-center">
 											<h4 class="p-b-1"> Copright: &copy; Nishtha Goyal</h4>
@@ -114,7 +138,7 @@
 										<div class="card card-primary">
 											<div class="card-header">
 												<a href="http://www.facebook.com" target="_blank">
-													<img src="images/facebook.jpg" height="50px" width="100%" /></a>
+													<img src="images/facebook.jpg" class="footerimage"/></a>
 												</div>
 											</div>
 										</div>
@@ -122,7 +146,7 @@
 											<div class="card card-primary">
 												<div class="card-header">
 													<a href="http://www.twitter.com" target="_blank">
-														<img src="images/twitter.png" height="50px" width="100%"/></a>
+														<img src="images/twitter.png" class="footerimage"/></a>
 													</div>
 												</div>
 											</div>
@@ -130,13 +154,14 @@
 												<div class="card card-primary">
 													<div class="card-header">
 														<a href="http://www.youtube.com" target="_blank">
-															<img src="images/youtube.png" height="50px" width="100%"/></a>
+															<img src="images/youtube.png" class="footerimage" /></a>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</footer><!-- footer ended -->
+								</div>
 								</div>
 							</div> <!-- full page container ended -->
 							<!-- jQuery first, then Tether, then Bootstrap JS. -->

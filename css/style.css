@@ -30,3 +30,16 @@ nav .container {
 		/*display: none;*/
 	}
 }
+.cardimage {
+ width:100%; 
+ height:180px;
+
+}
+.footerimage {
+     height:50px; 
+     width: 100% ;
+}
+.carouselimage img{
+ width:100%;
+  height:500px;
+}
